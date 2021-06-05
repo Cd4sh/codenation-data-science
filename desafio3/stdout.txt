@@ -1,0 +1,19 @@
+============================= test session starts ==============================
+platform linux -- Python 3.6.9, pytest-5.4.1, py-1.8.1, pluggy-0.13.1 -- /usr/bin/python
+cachedir: .pytest_cache
+rootdir: /home/c/codenation/data-science-1
+collecting ... collected 5 items
+
+test_main.py::test_q1 PASSED                                             [ 20%]
+test_main.py::test_q2 PASSED                                             [ 40%]
+test_main.py::test_q3 PASSED                                             [ 60%]
+test_main.py::test_q4 PASSED                                             [ 80%]
+test_main.py::test_q5 PASSED                                             [100%]
+
+=============================== warnings summary ===============================
+/home/c/.local/lib/python3.6/site-packages/matplotlib/backends/backend_gtk3.py:41
+  /home/c/.local/lib/python3.6/site-packages/matplotlib/backends/backend_gtk3.py:41: DeprecationWarning: Gdk.Cursor.new is deprecated
+    cursors.MOVE:          Gdk.Cursor.new(Gdk.CursorType.FLEUR),
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+========================= 5 passed, 1 warning in 2.40s =========================
